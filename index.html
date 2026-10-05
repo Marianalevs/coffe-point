@@ -3,113 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="¡Trabajamos para ofrecer el mejor café a nuestros clientes!">
   <link rel="stylesheet" href="style.css">
-  <section class:"hero">
+  <link rel="icon" href="images/mi-logo.png" type="image/png">
+  <section class="hero">
   <title>Coffee Point</title>
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header>
-    
-    <div class="logo">
-      <span>☕</span>
-      <h2>Coffee Point</h2>
+  <header class="encabezado-navegacion"></header>
+    <div class="mi-logo">
+      <img src="images/mi-logo.png" alt="Coffee Point Logo">
     </div>
-
-    <nav>
-      <ul>
+    <nav class="navegacion">
+      <ul class="menu-navegacion">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Pages</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+        <li><a href="#">Galería</a></li>
 
-    <div class="header-actions">
-      <button>BOOK TABLE</button>
-    </div>
+        
+        <li class="tiene-desplegable">
+          <a href="#">Sabores <span class="flecha">▼</span></a>
+      <ul class="sub-menu">
+        <li><a href="#">Chocolate</a></li>
+        <li><a href="#">Vainilla</a></li>
+        <li><a href="#">Fresa</a></li>
+      </ul>
+    </li>
+        <li><a href="#">Contacto</a></li>
+
+  </ul>
+    </nav>
 
   </header>
 
-
-  <!-- HERO -->
-  <main>
-
-    <section class="hero">
-
-      <!-- Fondo / overlay -->
-      <div class="hero-overlay"></div>
-
-      <!-- Flecha izquierda -->
-      <button class="slider-btn left">
-        &#10094;
-      </button>
-
-      <!-- Contenido -->
-      <div class="hero-content">
-
-        <span class="subtitle">
-          Welcome
-        </span>
-
-        <h1>
-          Live Your Best Coffee Life.
-        </h1>
-
-        <p>
-          We Don’t Make Your Coffee. We Make Your Day.
-        </p>
-
-        <div class="hero-buttons">
-          <button>VIEW MENU</button>
-          <button>BOOK TABLE</button>
-        </div>
-
-      </div>
-
-      <!-- Flecha derecha -->
-      <button class="slider-btn right">
-        &#10095;
-      </button>
-
-    </section>
-
-
-    <!-- ABOUT -->
-    <section class="about">
-
-      <div class="section-title">
-        <span>About Us</span>
-        <h2>Coffee The Way It Was Meant</h2>
-      </div>
-
-      <div class="about-content">
-
-        <div class="about-image">
-          <img src="" alt="Coffee">
-        </div>
-
-        <div class="about-text">
-          <p>
-            Texto descriptivo sobre la cafetería.
-          </p>
-
-          <p>
-            Más información sobre productos, experiencia y ambiente.
-          </p>
-        </div>
-
-      </div>
-
-    </section>
-
+  <main class="contenido-principal">
+    <h1>Bienvenidos a Coffee Point</h1>
+    <p>En Coffee Point, nos apasiona el café y nos enorgullece ofrecer una experiencia única a nuestros clientes.
+       Nuestro café es cuidadosamente seleccionado y preparado para brindar un sabor excepcional en cada taza.</p>
+    <p>Explora nuestra galería de imágenes para descubrir la atmósfera acogedora de nuestro café y los deliciosos productos que ofrecemos. 
+      Desde nuestras especialidades de café hasta nuestros postres caseros, cada visita a Coffee Point es una experiencia memorable.</p>
   </main>
+
+   <section class="conocenos">
+    <h2 class="titulo-seccion">Conócenos</h2>
+    <div class="contenedor-grid">
+        <div class="tarjeta-cafe">
+            <img src="images/Coffe 1.png" alt="Café">
+            <h3>Variedad de granos</h3>
+        <p>Seleccionamos los mejores granos de café de diferentes regiones del mundo para ofrecerte una experiencia única en cada taza.</p>
+        </div>
+
+        <div class="tarjeta-cafe">
+            <img src="images/Coffe 2.png" alt="Café">
+            <h3>La mejor calidad</h3>
+            <p>Utilizamos técnicas de preparación profesional para garantizar la máxima calidad en cada taza de café.</p>
+        </div>
+
+        <div class="tarjeta-cafe">
+            <img src="images/Coffe 3.png" alt="Café">
+            <h3>El mejor aroma</h3>
+            <p>Disfruta del aroma intenso y agradable de nuestro café, cuidadosamente elaborado para ofrecer una experiencia sensorial excepcional.</p>
+        </div>
+    </div>
+   </section>
+
+<section class="especialidades">
+    <h2 class="titulo-seccion">Nuestras Especialidades</h2>
+    <div class="contenedor-grid">
+        <div class="tarjeta-cafe">
+            <img src="images/Espresso.png" alt="Café Espresso">
+            <h3>Espresso Intenso</h3>
+            <p>La esencia pura del grano extraída con la presión perfecta.</p>
+
+        </div>
+
+<section class="elaboracion espresso">
+    <div class="tarjeta-cafe">
+        <img src="images/Elaboración.png" alt="Cafe Espresso">
+        <h3>Elaboración cafe espresso</h3>
+        <p>Nuestro profesonalismo para usted</p>
+
+   </div>
+
+
+</section>
+        <div class="tarjeta-cafe">
+            <img src="images/Latte-torta.png" alt="Arte Latte">
+            <h3>Arte Latte</h3>
+            <p>Suave leche emulsionada combinada con el mejor café de origen.</p>
+        </div>
+</section>
+
+    <div class="fila-zigzag invertida">
+        <div class="columna-img">
+            <img src="images/Tostados.png" alt="Opciones Saladas">
+        </div>
+        <div class="columna-texto">
+            <h5>Opciones Saladas de Masa Madre</h5>
+            <p>Tostados premium, sándwiches calientes y sabores salados elaborados con ingredientes frescos para un brunch o una tarde perfecta.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="ambiente">
+    <div class="capa-oscura">
+        <div class="columna-img">
+            <img src="images/Ambiente.png" alt="Ambiente Calido">
+        </div>
+        <div class="info-ambiente">
+            <h2>Tu Espacio Fuera de Casa</h2>
+            <p>Diseñamos un ambiente cálido con música suave, Wi-Fi de alta velocidad y rincones cómodos. 
+              El rincón ideal para trabajar, leer un buen libro o compartir una gran charla.</p>
+        </div>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+
 
 </body>
 </html>
